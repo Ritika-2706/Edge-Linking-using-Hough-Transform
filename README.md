@@ -29,8 +29,6 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 
 ## Program:
 ```Python
-
-
 # Read image and convert it to grayscale image
 import cv2
 import numpy as np
@@ -61,7 +59,6 @@ for line in lines:
 # Display the result
 plt.title('Hough Lines')
 plt.imshow(edges1,'gray')
-
 ```
 ## Output:
 <br>
